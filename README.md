@@ -6,7 +6,7 @@ We want to create an interpreter of assembler which will support the following i
 2. ```inc x``` - increase the content of register x by one.
 3. ```dec x``` - decrease the content of register x by one.
 4. ```add x, y``` - add the content of the register x with y either an integer or the value of a register and stores the result in x i.e. register[x] += y.
-5. ```sub x, y`` - subtract y either an integer or the value of a register from the register x and stores the result in x i.e. register[x] -= y.
+5. ```sub x, y``` - subtract y either an integer or the value of a register from the register x and stores the result in x i.e. register[x] -= y.
 6. ```mul x, y``` - same with multiply i.e. register[x] *= y.
 7. ```div x, y``` - same with integer division i.e. register[x] /= y.
 8. ```label:``` - define a label position (label = identifier + ":", an identifier being a string that does not match any other command). Jump commands and call are aimed to these labels positions in the program.

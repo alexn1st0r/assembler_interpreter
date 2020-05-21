@@ -284,7 +284,7 @@ void Interpreter::fetch_ret(std::vector<std::string> &parsed_instr, size_t size)
 	m_current_instr.type = RET;
 }
 
-void Interpreter::fetch_msg(std::string instr, size_t size)
+void Interpreter::fetch_msg(std::string &instr, size_t size)
 {
 	std::string result;
 

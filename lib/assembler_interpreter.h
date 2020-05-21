@@ -76,7 +76,7 @@ private:
 	void fetch_jl(std::vector<std::string> &parsed_instr, size_t size);
 	void fetch_call(std::vector<std::string> &parsed_instr, size_t size);
 	void fetch_ret(std::vector<std::string> &parsed_instr, size_t size);
-	void fetch_msg(std::string instr, size_t size);
+	void fetch_msg(std::string &instr, size_t size);
 	void fetch_end(std::vector<std::string> &parsed_instr, size_t size);
 	void fetch_comment(std::vector<std::string> &parsed_instr, size_t size);
 
